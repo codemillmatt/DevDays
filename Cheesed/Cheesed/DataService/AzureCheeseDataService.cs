@@ -33,8 +33,8 @@ namespace Cheesed.Local
 			await Task.Run (() => {
 				_isInitialized = true;
 
-				_client = new MobileServiceClient ("https://cheesed-devdays.azure-mobile.net", 							
-					"KdfMljHmkJIYkhfORpqbWGbFrSRHOb70");
+				_client = new MobileServiceClient ("YOUR_URL_HERE", 							
+					"YOUR_KEY_HERE");
 			});
 		}
 

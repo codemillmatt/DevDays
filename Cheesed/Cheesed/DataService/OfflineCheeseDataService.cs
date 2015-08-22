@@ -32,8 +32,8 @@ namespace Cheesed.Local
 			// Create the mobile client
 			_isInitialized = true;
 
-			_client = new MobileServiceClient ("https://cheesed-devdays.azure-mobile.net", 
-				"KdfMljHmkJIYkhfORpqbWGbFrSRHOb70");
+			_client = new MobileServiceClient ("YOUR_URL_HERE", 
+				"YOUR_KEY_HERE");
 
 			// Define the SQLite Store
 			var store = new MobileServiceSQLiteStore ("cheese.db3");
