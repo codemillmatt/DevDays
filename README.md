@@ -10,7 +10,7 @@ Before we get this to work, we first have to create a portal within Azure howeve
 ## Azure Setup
 
 ### Things you'll need to do no matter what
-1. Go to http://windowsazure.com and create an account. (Just create a free one - it gives you more than enough credits to try this demo out).
+1. Go to https://windowsazure.com/?WT.mc_id=mobile-0000-masoucou and create an account. (Just create a free one - it gives you more than enough credits to try this demo out).
 2. Create a new mobile service. Follow the wizard that it gives you. You'll probably need to create a new SQL Server and database, and will need a new user id and password for each.
 3. Remember all the names from step from steps 1 and 2.
 
